@@ -1,0 +1,176 @@
+.bgimg {
+  background-image: url(../img/human-5249576_1920.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 660px;
+  background-attachment: fixed;
+}
+.headerset {
+  padding-top: 250px;
+  box-sizing: border-box;
+}
+.headerset h2 {
+  font-size: 42px;
+}
+.headerset h1 {
+  font-size: 82px;
+  font-weight: bold;
+}
+
+/* ..............................our services.......................... */
+.ourservices {
+  padding: 100px 0px 60px;
+  height: 700px;
+}
+.ourservices h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.rowsetting {
+  margin: 80px 0px !important;
+}
+.imgsetting {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+.fas {
+  margin-top: 18px;
+}
+.fa-lock {
+  margin-top: 15px;
+}
+.rowsetting h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.rowsetting p {
+  color: #6c757d !important;
+  padding: 10;
+}
+/* //////////////////Protfolio//////////////////// */
+
+.portfolio {
+  height: 1100px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+.portfolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.card {
+  margin-top: 50px;
+}
+
+/* ////////////////Our Team/////////////////// */
+
+.ourteam {
+  height: 700px;
+  padding: 100px 0px 60px;
+  width: 100%;
+}
+.ourteam h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.teamsetting {
+  margin-top: 70px !important;
+}
+/* footer */
+footer h6 {
+  line-height: 50px;
+  padding: 10px;
+}
+/* Responsive */
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+  .headerset h2 {
+    font-size: 42px;
+  }
+  .headerset h1 {
+    font-size: 62px;
+  }
+  .ourservices h2 {
+    font-size: 22px;
+  }
+   .ourteam h2 {
+     font-size: 28px;
+   }
+}
+@media(min-width: 576px) and (max-width: 767px) {
+  .headerset h2 {
+    font-size: 36px;
+  }
+
+  .headerset h1 {
+    font-size: 42px;
+  }
+
+  .ourservices {
+    height: 1000px;
+  }
+
+  .portfolio {
+    height: 2300px;
+  }
+
+  .ourteam {
+    height: 1200px;
+  }
+}
+@media(min-width: 460px) and (max-width: 574px) {
+ .headerset h2 {
+   font-size: 36px;
+ }
+ .headerset h1 {
+   font-size: 42px;
+ }
+ .ourservices {
+   height: 1000px;
+ }
+ .portfolio {
+   height: 2300px;
+ }
+ .ourteam {
+   height: 1200px;
+ }
+}
+@media (max-width: 459px) {
+  .bgimg {
+    height: 500px;
+  }
+  .headerset{
+    padding-top: 200px;
+  }
+  .headerset h2 {
+    font-size: 22px;
+  }
+  .headerset h1 {
+    font-size: 22px;
+  }
+  .ourservices {
+    height: 1300px;
+  }
+  .ourservices h2 {
+    font-size: 20px;
+  }
+  .portfolio {
+    height: 2300px;
+  }
+  .portfolio h1 {
+    font-size: 46px;
+  }
+  .ourteam {
+    height: 1200px;
+  }
+   .ourteam h1 {
+     font-size: 34px;
+   }
+  .ourteam h2 {
+    font-size: 32px;
+  }
+}
