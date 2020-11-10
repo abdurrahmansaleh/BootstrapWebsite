@@ -119,11 +119,11 @@ footer h6 {
   }
 
   .portfolio {
-    height: 2300px;
+    height: 3200px;
   }
 
   .ourteam {
-    height: 1200px;
+    height: 1250px;
   }
 }
 @media(min-width: 460px) and (max-width: 574px) {
@@ -137,10 +137,10 @@ footer h6 {
    height: 1000px;
  }
  .portfolio {
-   height: 2300px;
+   height: 3000px;
  }
  .ourteam {
-   height: 1200px;
+   height: 1250px;
  }
 }
 @media (max-width: 459px) {
